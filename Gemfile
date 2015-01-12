@@ -44,5 +44,7 @@ group :development, :test do
 
   gem 'taps'
   gem 'rvm'
+group :production do
+  gem 'pg'  
 end
 
